@@ -1,23 +1,51 @@
 # Retail Sales Performance Analysis
 
+## Project Overview
+This project analyzes retail sales data to uncover business insights related to profitability, sales trends, customer behavior, and regional performance using Python and data analysis techniques.
+
 ## Problem Statement
-A retail organization is facing issues with inconsistent profitability in the market for different products, regions, and customers.
+The goal of this project is to analyze retail sales data to identify trends, profitability, and key business insights across categories, regions, and customer segments.
 
-## Tools Utilized
+## Dataset
+- Superstore dataset (CSV format)
+- Contains sales, profit, discount, region, category, and customer data
+
+
+## Tools Used
 - Python
-- SQL
-- Power BI
+- Pandas
+- Matplotlib
+- Jupyter Notebook
 
-## Project Directory
-- data/ - Files with the dataset
-- notebooks/ - Python codes
-- dashboard/ - Power BI dashboard
 
-## Key Findings
-- Technology is the most profitable segment
-- Furniture is a profitable segment in terms of sales, but the profit is low
-- There are products with negative profit due to discounts
+## Key Analysis Performed
+- Data cleaning and preprocessing
+- Sales and profit analysis by category and sub-category
+- Regional performance analysis
+- Customer segment analysis
+- Time-based (monthly/yearly) trend analysis
+
+
+## Key Insights
+- Technology is the most profitable category
+- Furniture has high sales but low profit
+- Tables and Bookcases generate losses
+- High discounts reduce profitability
+- West region performs best
+- Consumer segment contributes the most revenue
+- Sales peak in November and December
+
 
 ## Business Recommendations
-- Avoid giving discounts on products with negative profit
-- Improve the price strategy
+- Reduce discounts on loss-making products
+- Focus on high-profit categories like Technology
+- Improve pricing strategy
+- Expand in high-performing regions
+
+
+## Project Files
+- Retail_Sales_Analysis.ipynb: Complete analysis notebook
+- Superstore.csv: Dataset used for analysis
+
+## Contact
+If you have any questions or feedback, feel free to connect with me.
